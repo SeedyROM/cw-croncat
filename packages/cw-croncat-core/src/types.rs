@@ -163,7 +163,7 @@ pub enum SlotType {
 //     pub msg: Binary,
 // }
 
-#[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Eq, JsonSchema)]
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
 pub struct Action<T = Empty> {
     // NOTE: Only allow static pre-defined query msg
     /// Supported CosmosMsgs only!

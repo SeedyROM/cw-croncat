@@ -17,7 +17,7 @@ cosmwasm-std = { version = "1.0.0", features = ["staking", "stargate"] }
 cw-rules-core = { version = "0.1.1", path = "../../packages/cw-rules-core" }
 cosmwasm-storage = { version = "1.0.0" }
 cw-storage-plus = "0.13"
-cron_schedule = "0.2.2"
+cron_schedule = { git = "https://github.com/SeedyROM/Schedule" }
 cw2 = "0.13"
 cw20 = { version = "0.13" }
 schemars = "0.8"
